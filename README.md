@@ -1,7 +1,64 @@
-# simple-counter
+# シンプルカウンター
+
+シンプルで使いやすいWebカウンターアプリケーションです。
+
+## 概要
+
+このアプリは、数値をカウントするためのシンプルなWebアプリケーションです。ボタンをクリックするだけで、簡単にカウントの増減やリセットができます。
+
+## 機能
+
+- **カウント増加（+）**: カウントを1ずつ増やします（最大999まで）
+- **カウント減少（-）**: カウントを1ずつ減らします（最小0まで）
+- **リセット**: カウントを0に戻します（確認ダイアログ付き）
+- **レスポンシブデザイン**: モバイルデバイスにも対応
+- **タッチ操作最適化**: ダブルタップでのズームを無効化
+
+## 使い方
+
+1. `index.html` をブラウザで開きます
+2. `+` ボタンをクリックしてカウントを増やします
+3. `-` ボタンをクリックしてカウントを減らします
+4. `リセット` ボタンをクリックしてカウントを0に戻します
+
+## ファイル構成
+
+```
+simple-counter/
+├── index.html          # メインHTMLファイル
+├── css/
+│   └── index.css      # スタイルシート
+├── js/
+│   └── main.js        # カウンターロジック
+└── README.md          # このファイル
+```
+
+## 技術スタック
+
+- **HTML5**: 構造
+- **CSS3**: スタイリング
+- **JavaScript (ES6)**: カウンターロジック
+
+## 仕様
+
+- カウント範囲: 0〜999
+- リセット時に確認ダイアログを表示
+- ユーザー選択やコンテキストメニューを無効化して誤操作を防止
+
+## ブラウザ対応
+
+- Chrome（推奨）
+- Firefox
+- Safari（iOS対応）
+- Edge
 
 ## 参考サイト
-* [iOS Safariでダブルタップでのパンやズームを無効にする](https://zenn.dev/razokulover/scraps/c68d3f347dc701)
-* [ダイアログを表示する](https://www.javadrive.jp/javascript/webpage/index1.html)
-* [CSS：縦中央揃えにする方法まとめ](https://yu-z.com/vertical-alignment/)
-* [CSSで円を描く方法：文字を中央配置するには？枠線のつけ方は？](https://saruwakakun.com/html-css/basic/circle)
+
+- [iOS Safariでダブルタップでのパンやズームを無効にする](https://zenn.dev/razokulover/scraps/c68d3f347dc701)
+- [ダイアログを表示する](https://www.javadrive.jp/javascript/webpage/index1.html)
+- [CSS：縦中央揃えにする方法まとめ](https://yu-z.com/vertical-alignment/)
+- [CSSで円を描く方法：文字を中央配置するには？枠線のつけ方は？](https://saruwakakun.com/html-css/basic/circle)
+
+## ライセンス
+
+このプロジェクトはオープンソースです。
